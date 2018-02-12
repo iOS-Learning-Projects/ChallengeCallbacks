@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E8CA02671E85A39400C71503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA02661E85A39400C71503 /* main.m */; };
+		E8CA026F1E85A3AD00C71503 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA026E1E85A3AD00C71503 /* Pessoa.m */; };
+		E8CA02721E85A65A00C71503 /* ControllerPessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA02711E85A65A00C71503 /* ControllerPessoa.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		E8CA02631E85A39400C71503 /* Challenge Callbacks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge Callbacks"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CA02661E85A39400C71503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8CA026D1E85A3AD00C71503 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		E8CA026E1E85A3AD00C71503 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
+		E8CA02701E85A65A00C71503 /* ControllerPessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerPessoa.h; sourceTree = "<group>"; };
+		E8CA02711E85A65A00C71503 /* ControllerPessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerPessoa.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				E8CA02661E85A39400C71503 /* main.m */,
+				E8CA02701E85A65A00C71503 /* ControllerPessoa.h */,
+				E8CA02711E85A65A00C71503 /* ControllerPessoa.m */,
+				E8CA026D1E85A3AD00C71503 /* Pessoa.h */,
+				E8CA026E1E85A3AD00C71503 /* Pessoa.m */,
 			);
 			path = "Challenge Callbacks";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CA026F1E85A3AD00C71503 /* Pessoa.m in Sources */,
+				E8CA02721E85A65A00C71503 /* ControllerPessoa.m in Sources */,
 				E8CA02671E85A39400C71503 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

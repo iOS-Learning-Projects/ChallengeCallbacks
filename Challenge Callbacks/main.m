@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ControllerPessoa.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        ControllerPessoa *pessoas = [[ControllerPessoa alloc]init];
+        [[NSRunLoop currentRunLoop]run];
     }
     return 0;
 }
